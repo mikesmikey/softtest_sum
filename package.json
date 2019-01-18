@@ -1,11 +1,23 @@
 {
   "name": "lab1",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. ลง Jest \r   - terminal :\r     npm install --save-dev jest\r 2. ทดลอง เรียกคำสั่ง npx คือ คำสั่งที่เรียก คำสั่งที่ติดตั้งใน Local\r   npx jest\r 3. แก้ไข sum.test.js และ เพิ่มเติม test อื่น ๆ\r 4. ทดลองสร้าง minus.js และ minus.test.js ตามลำดับ ทดลองสร้าง test case 5 test cases",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/werapango/test_lab1_sum.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/werapango/test_lab1_sum/issues"
+  },
+  "homepage": "https://github.com/werapango/test_lab1_sum#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
 }
